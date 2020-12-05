@@ -1,7 +1,7 @@
 import os
 
-import multidb
-from django.db import connections
+# import multidb
+# from django.db import connections
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -71,57 +71,57 @@ DATABASES = {
 #     'default': {
 # 	    'ENGINE': 'django.db.backends.mysql',
 #         'NAME': 'mysql',
-	    # 'USER': 'goldme6j_testdj',
-	    # 'PASSWORD': 'Ju%k9DBc',
-	    # 'HOST': 'localhost',
-	    # 'OPTIONS': {
-        #     'init_command': "SET sql_mode='STRICT_TRANS_TABLES', innodb_strict_mode=1",
-        #     'charset': 'utf8mb4',
-        #     "autocommit": True,
-        # },
-    # },
-    # 'postgresql': {
-    #     'NAME': 'postgresql',
-    #     'ENGINE': 'django.db.backends.postgresql',
-    #     'USER': 'postgres_user',
-    #     'PASSWORD': 'password'
-    # },
-    # 'mssql': {
-    #     'NAME': 'mssql',
-    #     'ENGINE': 'sql_server.pyodbc',
-    #     'USER': 'mssql_user',
-    #     'PASSWORD': 'password'
-    # },
-    # 'mysql_gis': {
-    #     'NAME': 'mysql_gis',
-    #     'ENGINE': 'django.contrib.gis.db.backends.mysql',
-    #     'USER': 'mysql_gis_user',
-    #     'PASSWORD': 'password'
-    # },
-    # 'spatialite': {
-    #     'NAME': 'spatialite',
-    #     'ENGINE': 'django.contrib.gis.db.backends.spatialite',
-    #     'USER': 'spatialite_user',
-    #     'PASSWORD': 'password'
-    # },
-    # 'oracle': {
-    #     'NAME': 'oracle',
-    #     'ENGINE': 'django.db.backends.oracle',
-    #     'USER': 'oracle_user',
-    #     'PASSWORD': 'password'
-    # },
-    # 'oracle_gis': {
-    #     'NAME': 'oracle_gis',
-    #     'ENGINE': 'django.contrib.gis.db.backends.oracle',
-    #     'USER': 'oracle_gis_user',
-    #     'PASSWORD': 'password'
-    # },
-    # 'redshift': {
-    #     'NAME': 'redshift',
-    #     'ENGINE': 'django_redshift_backend',
-    #     'USER': 'redshift_user',
-    #     'PASSWORD': 'password'
-    # }
+# 'USER': 'goldme6j_testdj',
+# 'PASSWORD': 'Ju%k9DBc',
+# 'HOST': 'localhost',
+# 'OPTIONS': {
+#     'init_command': "SET sql_mode='STRICT_TRANS_TABLES', innodb_strict_mode=1",
+#     'charset': 'utf8mb4',
+#     "autocommit": True,
+# },
+# },
+# 'postgresql': {
+#     'NAME': 'postgresql',
+#     'ENGINE': 'django.db.backends.postgresql',
+#     'USER': 'postgres_user',
+#     'PASSWORD': 'password'
+# },
+# 'mssql': {
+#     'NAME': 'mssql',
+#     'ENGINE': 'sql_server.pyodbc',
+#     'USER': 'mssql_user',
+#     'PASSWORD': 'password'
+# },
+# 'mysql_gis': {
+#     'NAME': 'mysql_gis',
+#     'ENGINE': 'django.contrib.gis.db.backends.mysql',
+#     'USER': 'mysql_gis_user',
+#     'PASSWORD': 'password'
+# },
+# 'spatialite': {
+#     'NAME': 'spatialite',
+#     'ENGINE': 'django.contrib.gis.db.backends.spatialite',
+#     'USER': 'spatialite_user',
+#     'PASSWORD': 'password'
+# },
+# 'oracle': {
+#     'NAME': 'oracle',
+#     'ENGINE': 'django.db.backends.oracle',
+#     'USER': 'oracle_user',
+#     'PASSWORD': 'password'
+# },
+# 'oracle_gis': {
+#     'NAME': 'oracle_gis',
+#     'ENGINE': 'django.contrib.gis.db.backends.oracle',
+#     'USER': 'oracle_gis_user',
+#     'PASSWORD': 'password'
+# },
+# 'redshift': {
+#     'NAME': 'redshift',
+#     'ENGINE': 'django_redshift_backend',
+#     'USER': 'redshift_user',
+#     'PASSWORD': 'password'
+# }
 # }
 
 # REPLICA_DATABASES = ['mysql', 'postgresql', 'mssql', 'mysql_gis', 'spatialite', 'oracle', 'oracle_gis', 'redshift']
@@ -172,7 +172,7 @@ JAZZMIN_SETTINGS = {
     "hide_models": [],
     "order_with_respect_to": [],
     "custom_links": {},
-        "icons": {"auth": "fas fa-users-cog", "auth.user": "fas fa-user", "auth.Group": "fas fa-users", "main": "fas fa-money-check-alt", "main.Order": "fas fa-check-square", "main.Agent": "fas fa-building"},
+    "icons": {"auth": "fas fa-users-cog", "auth.user": "fas fa-user", "auth.Group": "fas fa-users", "main": "fas fa-money-check-alt", "main.Order": "fas fa-check-square", "main.Agent": "fas fa-building"},
     "default_icon_parents": "fas fa-chevron-circle-right",
     "default_icon_children": "fas fa-circle",
     "related_modal_active": False,

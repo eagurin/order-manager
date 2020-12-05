@@ -1,6 +1,7 @@
 import os
-from django.db import connections
+
 import multidb
+from django.db import connections
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 

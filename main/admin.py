@@ -1,8 +1,9 @@
 from django.contrib import admin
-from rangefilter.filter import DateRangeFilter
 from django.contrib.auth.models import Group, User
+from rangefilter.filter import DateRangeFilter
 
-from .models import Order, Agent
+from .models import Agent, Order
+
 
 class OrderAdmin(admin.ModelAdmin):
     list_display = ('id', 'created', 'price', 'agent', 'short_description')

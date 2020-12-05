@@ -1,6 +1,6 @@
-from djmoney.models.fields import MoneyField
 from django.db import models
 from django.template.defaultfilters import truncatechars
+from djmoney.models.fields import MoneyField
 
 
 class Agent(models.Model):
